@@ -11,7 +11,6 @@ $ cd ~
 $ git clone git@github.com:chinaran/color-compile.git
 $ cd color-compile
 ```
-[clone]()
 
 > ## 编译/安装
 
@@ -20,6 +19,9 @@ $ cd color-compile
 $ make
 $ sudo make install #need root
 ```
+
+![color_compile_clone_and_install](http://7xin3x.com1.z0.glb.clouddn.com/color_compile_clone_and_install.png)
+
 > ## 配置
 
 配置`~/.bashrc`,给编译器设置别名
@@ -30,6 +32,9 @@ $ alias make="color_compile make"
 $ alias mips-linux-gnu-gcc="color_compile mips-linux-gnu-gcc"
 $ alias mips-linux-gnu-g++="color_compile mips-linux-gnu-g++"
 ```
+效果如下：
+
+![color_compile_make](http://7xin3x.com1.z0.glb.clouddn.com/color_compile_make.png)
 
 > ## 其它方式
 
