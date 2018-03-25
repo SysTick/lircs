@@ -10,9 +10,9 @@ SPI作为master或slave时可以达到的最大传输速率是多少 ？
 
 ## SPI最大传输速率受以下几个条件影响：
 
-    SPI的最大时钟频率
-    CPU处理SPI数据的能力
-    输出端驱动能力（PCB所允许的最大信号传输速率）
+1. SPI的最大时钟频率
+2. CPU处理SPI数据的能力
+3. 输出端驱动能力（PCB所允许的最大信号传输速率）
 
 ## SPI的最大时钟频率
 
@@ -44,4 +44,4 @@ Fmax = 1 /（2 × π × Rdrive * Ctrace）；
 
 Topics: 8-bit MCUs Knowledge Base Articles Interface 
 
-英文版：[https://www.silabs.com/community/mcu/8-bit/knowledge-base.entry.html/2011/12/06/spi_throughput-Qr7y](https://www.silabs.com/community/mcu/8-bit/knowledge-base.entry.html/2011/12/06/spi_throughput-Qr7y)
+英文版：[https://www.silabs.com/community/mcu/8-bit/knowledge-base.entry.html/2011/12/06/spi_throughput-Qr7y](https://www.silabs.com/community/mcu/8-bit/knowledge-base.entry.html/2011/12/06/spi_throughput-Qr7y)  
